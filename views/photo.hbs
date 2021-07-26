@@ -1,0 +1,76 @@
+{{#if name}}
+<div class="avatar">
+  <img src="/content/8B9A479A-AE76-4FD3-B835-05C7C8E2987D_1_201_a.jpeg" alt="Мое лицо крупным планом">
+</div>
+<div class="name">
+  <h1>Катя Алферова / ekaterinalf</h1>
+</div>
+
+<div class="button">
+  <button class="button1"><a href="#aboutMe">Обо мне</a></button>
+  <button class="button2"><a href="#downloadButton">Галерея</a></button>
+  <button class="button3"><a href="#contact">Связаться со мной</a></button>
+  <br>
+  <button class="button4"><a href="/">Не хочу это видеть</a></button>
+</div>
+
+<div class="aboutMe">
+  <h2 id="aboutMe">ОБО МНЕ</h2>
+  <div class="conteiner">
+    <p>
+      Привет, меня зовут Катя! Мне 31 годик, родом я из Санкт-Петербурга. Сегодня я живу в пригороде с подругой и тремя
+      котами.
+    </p>
+    <p>
+      Я люблю путешествовать, обожаю Америку и мечтаю туда переехать. В свободное время мы занимаемся своим маленьким
+      брендом
+      кожаных аксессуаров <a href="https://www.livemaster.ru/inx-brand">NOT.VEGAN.BAG</a>. Еще с недавних пор полюбилось
+      мне варить свечи. В остальном все как у всех, книги, сериалы,
+      прогулки по вечернему городу.
+    </p>
+    <p>
+      До недавнего времени я работала менеджером по управлению ассортиментом, но в 2021 году решила перевернуть свою
+      жизнь и
+      следовать за мечтой. Сейчас я учусь программированию и ближайшие 3 месяца меня лучше не беспокоить :) Но если все
+      же
+      хочется связаться со мной, ниже есть контакты.
+    </p>
+  </div>
+</div>
+
+<div id="divdiv">
+<button type="submit" class="button5" id="downloadButton">Загрузить фотки</button>
+  <div id="photos"></div>
+  </div>
+
+  <div class="contacts">
+    <h2 id="contact">СВЯЗАТЬСЯ СО МНОЙ</h2>
+    <div>
+      <span>Можно написать мне письмо на </span>
+      <a href="mailto:ekaterinalf@mail.ru">ekaterinalf@mail.ru</a>
+    </div>
+    <div>
+      <span>А можно подписаться в</span>
+      <a href="https://www.instagram.com/ekaterinalf/">Instagram</a>
+    </div>
+  </div>
+
+  {{else}}
+  <div class="avatar">
+    <img src="content/SNeoKDanpdU.jpeg">
+  </div>
+  <div class="name">
+    <h1>Привет!<br>Не знаю зачем тебе это, но здесь ты можешь зарегистрироваться</h1>
+  </div>
+  
+  <div class="button">
+    <button class="button1" ><a href="/login" id="loginBut">Войти</a></button>
+    <button class="button2" id="regBut"><a href="/registration">Регистрация</a></button>
+    <button class="button3"><a href="https://saltmag.ru/lifestyle/fun/6373-luchshie-memy-s-kotami/" target="_blank">Ой, все!</a></button>
+  </div>
+
+  <div id="fetch1"></div>
+  {{/if}}
+  
+
+

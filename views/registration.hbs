@@ -1,0 +1,29 @@
+<div class="container h-100">
+  <div class="row h-100 justify-content-center align-items-center">
+    <div class="col-10 col-md-8 col-lg-6">
+      <!-- Form -->
+      <form class="signup-form" action="/registration" method="post">
+        <div class="form-group mt-5">
+          <p></p>
+          <input type="text" name="name" id="name" class="form-control" placeholder="как зовут тебя..." required>
+        </div>
+        <div class="form-group mt-5">
+          <input type="email" name="email" id="email" class="form-control" placeholder="твой email..." required>
+        </div>
+        <div class="form-group mt-5">
+          <input type="text" name="instagram" id="instagram" class="form-control" placeholder="твоя insta... я подпишусь :)" required>
+        </div>
+        <div class="form-group mt-5">
+          <input type="password" name="password" id="password" class="form-control" placeholder="паролька..." required>
+        </div>
+        <div class="text-center mt-5">
+          <button type="submit" class="btn btn-secondary" id="SendRegForm">&nbsp; Регистрируюсь &nbsp;</button>
+        </div>
+        {{!-- <div class="text-center mt-5">
+          <button type="submit" class="btn btn-secondary"> <a href="/" style="color: white;">&nbsp; хочу назад &nbsp;</a> </button>
+        </div> --}}
+      </form>
+      <!-- Form end -->
+    </div>
+  </div>
+</div>
